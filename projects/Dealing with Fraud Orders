@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Fraud Orders"
+description: "How I designed a solution for fraud orders that downloaded to the warehouse systems."
+order: 3
+---
+
+**WORK IN PROGRESS**
+**How were fraud orders discovered**
+I received an email from someone in one of our warehouses about a couple orders that were failing at manifest.  When I looked at the orders in the database, something about the delivery addresses were off. I wanted to see if there were other orders headed to the same address so we could fix them all at once. 
+
+What I found shocked me!
+Nearly 200 orders total were going to some form of the addresses for the orders. One address was used multiple times, the other was chagning a letter in the street number. For example 101A Oak Ave, 101B Oak Ave, 101C and so on).
+
+After engaging Customer Service, all of the orders were concidered fraud.  
