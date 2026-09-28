@@ -11,13 +11,23 @@ title: Home
 <!-- 1. ABOUT ME SECTION -->
 ## Technology Leadership & Product Architecture
 
-I am a De Facto Product Manager, Solutions Architect, and Senior Application Systems Analyst (aka Senior Business Analyst) specializing in enterprise supply chain transformations, ERP implementations, and complex systems integrations. Over years of hands-on technical leadership, I have bridged the gap between operational reality and software design—driving product ownership, architecting scalable platform solutions, and managing end-to-end delivery for critical business systems.
+I'm a technology leader who has worked as a de facto Product Manager and Solutions Architect, specializing in enterprise supply chain systems, ERP environments, and complex integrations. I bridge the gap between operational reality and software design by owning products, architecting practical solutions, and managing end-to-end delivery of business-critical systems across WMS, TMS, ERP, and fulfillment operations.<img width="468" height="100" alt="image" src="https://github.com/user-attachments/assets/5fd0818e-4bf7-4d94-868a-e1fdd81bad08" />
 
-### Featured Discussions
 
-* **Product & Systems Strategy:** Articles or frameworks on serving as a de facto product manager—translating complex operational challenges into technical requirements, architecture blueprints, and execution roadmaps.
-* **Instructional Documentation & Training:** Designing clear, actionable documentation to ensure seamless user adoption and retention.
-* **Change Compliance:** Insights and practical templates for building clear technical documentation, compliance frameworks, and training programs that ensure long-term user adoption.
+
+### Tools & Platforms
+
+**Enterprise Systems:** Microsoft Dynamics 365 • Infor M3 • Körber One (WMS) • Home-Grown / Custom-Built Systems • WMS • WFM • TMS • ERP
+
+**Data & Reporting:** SQL • Power BI • SSRS • HighJump
+
+**Development & Testing:** JavaScript • Visual Studios • SQL • End-to-End System Validation 
+
+**AI & Automation:** Claude (Generative AI) • AI Workflow Automation • Agentic AI
+
+**Product & Delivery:** Jira • Confluence • ServiceNow • xMatters • Agile / Scrum
+
+**Design & Collaboration:** Figma • Lucidchart • Visio • Mural • Process Mapping
 
 ---
 
