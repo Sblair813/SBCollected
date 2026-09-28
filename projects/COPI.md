@@ -8,7 +8,7 @@ description: "A product management case study focused on improving product infor
 
 COPI is a product management case study exploring how organizations can make product information more complete, consistent, and manageable throughout the product lifecycle.
 
-The initial module, **COPI Onboarding**, focuses on the process of receiving product information, evaluating it against applicable requirements, identifying gaps, requesting missing information, and revalidating the product until requirements are satisfied.
+The initial module, **COPI Onboarding**, focuses on receiving product information, evaluating it against applicable requirements, identifying gaps, requesting missing information, and revalidating the product until requirements are satisfied.
 
 ## What this case study demonstrates
 
@@ -31,6 +31,6 @@ The product is designed to keep requirements, decisions, and accountability unde
 
 ## Explore the case study
 
-[**View the COPI GitHub repository →**](https://github.com/YOUR-GITHUB-USERNAME/COPI)
+[**View the COPI GitHub repository →**](YOUR-COPI-REPOSITORY-URL)
 
 The repository contains the working product documentation and artifacts developed for the case study.
