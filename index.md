@@ -11,8 +11,7 @@ title: Home
 <!-- 1. ABOUT ME SECTION -->
 ## Technology Leadership & Product Architecture
 
-I'm a technology leader who has worked as a de facto Product Manager and Solutions Architect, specializing in enterprise supply chain systems, ERP environments, and complex integrations. I bridge the gap between operational reality and software design by owning products, architecting practical solutions, and managing end-to-end delivery of business-critical systems across WMS, TMS, ERP, and fulfillment operations.<img width="468" height="100" alt="image" src="https://github.com/user-attachments/assets/5fd0818e-4bf7-4d94-868a-e1fdd81bad08" />
-
+I'm a technology leader who has worked as a de facto Product Manager and Solutions Architect, specializing in enterprise supply chain systems, ERP environments, and complex integrations. I bridge the gap between operational reality and software design by owning products, architecting practical solutions, and managing end-to-end delivery of business-critical systems across WMS, TMS, ERP, and fulfillment operations.
 
 
 ### Tools & Platforms
