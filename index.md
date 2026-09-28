@@ -16,7 +16,7 @@ I'm a technology leader who has worked as a de facto Product Manager and Solutio
 
 ### Tools & Platforms
 
-**Enterprise Systems:** Microsoft Dynamics 365 • Infor M3 • Körber One (WMS) • Home-Grown / Custom-Built Systems • WMS • WFM • TMS • ERP
+**Enterprise Systems:** Microsoft Dynamics 365 • Infor M3 • Körber One (WMS) • Home-Grown and Custom-Built Systems • WMS • WFM • TMS • ERP
 
 **Data & Reporting:** SQL • Power BI • SSRS • HighJump
 
