@@ -117,7 +117,7 @@ I'm a technology leader who has worked as a de facto Product Manager and Solutio
             {{ project.description }}
           </p>
         {% endif %}
-        <a href="{{ project.url | relative_url }}" style="font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none;">View Project &rarr;</a>
+        <a href="{{ project.path | replace: '.md', '' | relative_url }}" style="font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none;">View Project &rarr;</a>
       </div>
     {% endif %}
   {% endfor %}
