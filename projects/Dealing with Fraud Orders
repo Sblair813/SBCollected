@@ -7,9 +7,36 @@ order: 3
 
 **WORK IN PROGRESS**
 **How were fraud orders discovered**
-I received an email from someone in one of our warehouses about a couple orders that were failing at manifest.  When I looked at the orders in the database, something about the delivery addresses were off. I wanted to see if there were other orders headed to the same address so we could fix them all at once. 
+I received an email from someone in one of our warehouses about a couple orders that were failing at manifest.  When I looked at the orders in the database, something about the delivery addresses were off. I wanted to see if there were other orders headed to the same addresses so we could fix them all at once. 
 
 What I found shocked me!
 Nearly 200 orders total were going to some form of the addresses for the orders. One address was used multiple times, the other was chagning a letter in the street number. For example 101A Oak Ave, 101B Oak Ave, 101C and so on).
 
-After engaging Customer Service, all of the orders were concidered fraud.  
+After engaging Customer Service, all of the orders were concidered fraud. I was able to cancel most of the orders using a SQL script, but unfortunately, many of the orders did ship successfully.  *This part confused me originally, but i realized the ship carrier validation differed for some, enabling some of the orders to manifest successfully.*
+
+**The Additional Research**
+With the volume of fraud orders I saw, I wanted to get a better understanding of how systemic this issue truly was.  
+
+I wanted to research:
+* Were there other orders with invalid addresses, or address patterns like I saw?
+* What products were they ordering, were they random, targetted?
+* What was our loss?
+* What is the payment type, are we subject to chargeback fees?
+
+After further research and creating an ad hoc report, I realized there was a systemic issue.  I found over $200,000 worth of product associated with supicious addresses within a 2 week time frame.
+
+I notified my Engineering Manager late the evening.  The next morning, he pulled in IT resources.  We were able to block IP addresses, triangulate where the orders were coming from, but these efforts were only the beginning!
+
+The following week, based on a recent charge back report, my company was able to determine just how hard we were hit, and it's much higher than any of us anticipated.  
+
+**The Remedy I created for the warehouse systems**
+By the time an order reaches the warehouse systems, it is difficult and costly to intercept an order.  Working with a very tech saavy engineer, we quickly designed a solution that would:
+1. Capture addresses, address patterns or other wild cards to a database table. 
+2. Put orders shipping to those addresses in a specific order status
+3. Display the orders on a Report for Customer Service to manage and address the orders
+4. Create a stored procedure to enable our team to update the address patterns
+5. Create a stored procedure to enable our team to update order status when needed (singular or multiple orders)
+
+This was a significant win!  We had some very heavy months were new addresses seemed to have been found daily, but our solution worked.  In time, other upstream teams were able to deploy solutions as well.  
+
+
