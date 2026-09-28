@@ -32,6 +32,6 @@ The product is designed to keep requirements, decisions, and accountability unde
 
 ## Explore the case study
 
-[**View the COPI GitHub repository →**](YOUR-COPI-REPOSITORY-URL)
+[**View the COPI GitHub repository →**](https://github.com/Sblair813/COPI)
 
 The repository contains the working product documentation and artifacts developed for the case study.
