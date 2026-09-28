@@ -2,6 +2,7 @@
 layout: default
 title: "Resourceful Data Engineering, Building a Telecom Analytics Dashboard Under Constraints"
 description: "How I engineered a tactical telecom network dashboard using Python data pipelines and advanced Excel modeling when standard enterprise tools were unavailable."
+order: 2
 ---
 
 When presented with an interview business case study that traditionally called for an enterprise SQL database architecture and Power BI visualization suites, I faced an immediate constraint: my personal workspace lacked access to these platforms. 
