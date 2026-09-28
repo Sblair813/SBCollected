@@ -2,6 +2,7 @@
 layout: default
 title: "COPI — Core Onboarding Product Integrity"
 description: "A product management case study focused on improving product information integrity through workflow, validation, and AI-assisted capabilities."
+order: 1
 ---
 --------------------------------------------------------------------------------------------------------------------------------------------
 
