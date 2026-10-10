@@ -3,6 +3,7 @@ layout: post
 title: "What it takes to be a truly great Product Manager-Owner"
 date: 2026-09-29
 ---
+**DRAFT IN PROGRESS**
 If you said the ability to **prioritize**, you’d be wrong. Anyone can prioritize if they have the right framework. Not everyone can be truly empathetic.
 
 **Empathy** is the single most important characteristic of a great Product Manager-Owner.
