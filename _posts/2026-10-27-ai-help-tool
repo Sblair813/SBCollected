@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Building an Internal AI Help Tool: Tying KM to AI Success"
+date: 2026-10-27 09:00:00 -0400
+categories: [Knowledge-Management, Artificial-Intelligence]
+tags: [AI-Help-Tool, Information-Architecture, Data-Governance, Enterprise-KM]
+author: Susan Blair
+description: "Why internal AI help tools depend on structured Information Architecture, and how enterprise Knowledge Management creates the necessary foundation for reliable AI assistant deployment."
+---
+
+## Executive Summary
+
+Organizations across every sector are eager to build an internal AI Help tool—a unified assistant that allows employees to quickly query internal policies, technical SOPs, and system integration workflows. However, an AI help tool is only as accurate as the documentation it searches. 
+
+Connecting a Large Language Model (LLM) or RAG system to fragmented, out-of-date, or unstructured documents leads to inaccurate answers and user distrust. To build a successful AI Help tool, enterprise teams must first establish a structured, governed Knowledge Management (KM) foundation.
+
+---
+
+## The Challenge: Why AI Help Tools Fail Without Preparation
+
+When companies rush to launch an internal AI Help tool, they often point vector search engines directly at legacy SharePoints, Confluence spaces, or shared drives. This shortcut creates three immediate failure points:
+
+1. **Information Pollution:** Duplicate SOPs, obsolete process guides, and unversioned drafts lead the AI Help tool to return incorrect or conflicting answers.
+2. **Missing Metadata:** Without standardized tagging, lifecycle statuses (`Draft`, `Approved`, `Deprecated`), or explicit ownership fields, the LLM cannot determine which document represents the true system authority.
+3. **Unstructured Data Silos:** Complex system workflows, integration rules, and operational logic locked in static PDFs or unstructured prose cannot be reliably parsed for precise troubleshooting.
+
+---
+
+## The KM Roadmap: Preparing Enterprise Data for an AI Help Tool
+
+To transform raw company documentation into an intelligent, high-performing AI Help tool, teams must implement four core Knowledge Management practices upfront:
+
+### 1. Mandatory Front-Matter Metadata Schemas
+Enforce standard YAML metadata headers across all internal documentation before indexing it for the AI Help tool:
+* `document_id` & `title`
+* `owner` / `domain_expert`
+* `status` (`Draft`, `Verified`, `Deprecated`)
+* `last_reviewed_date`
+* `target_systems` (e.g., `Infor-ERP`, `UKG-WFM`, `Körber-WMS`)
+
+### 2. Controlled Taxonomy Dictionaries
+Unify organizational terminology across teams. If Operations says "DC," Logistics says "Warehouse," and Systems says "Fulfillment Center," a controlled taxonomy ensures the AI Help tool correctly maps these synonyms during user queries.
+
+### 3. Active Lifecycle Governance
+Establish strict review cycles and archiving rules. Deprecated policies and outdated troubleshooting guides must be systematically filtered out of the AI Help tool's search index to prevent the model from citing obsolete procedures.
+
+### 4. Relational System Ontologies
+Document structural dependencies between enterprise tools and business processes. Structuring knowledge to define how systems connect—such as data flows between Infor CloudSuite and UKG—enables the AI Help tool to provide meaningful, step-by-step guidance during system outages or integration issues.
+
+---
+
+## Strategic Value
+
+An internal AI Help tool is not a substitute for Knowledge Management—it is an amplifier of it. Organizations that invest in information architecture, taxonomy alignment, and lifecycle governance upfront will deploy an AI Help tool that provides reliable, executive-ready support across the entire enterprise.
