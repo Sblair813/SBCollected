@@ -139,32 +139,39 @@ title: Home
     A production-grade 4-pillar Information Architecture model featuring YAML front-matter metadata schemas, controlled taxonomy dictionaries, semantic system ontologies, and automated lifecycle governance policies.
   </p>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+  <div style="display: flex; flex-direction: column; gap: 10px;">
     
     <!-- Pillar 1: Governance -->
-    <a href="{{ '/KM/Governance/GOVERNANCE.html' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb; font-weight: 600; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
-      Governance & Policies &rarr;
-    </a>
+    <div>
+      <a href="{{ '/KM/Governance/GOVERNANCE.html' | relative_url }}" style="color: #2563eb; font-weight: 600; font-size: 0.95rem; text-decoration: none;">
+        Governance & Policies &rarr;
+      </a>
+    </div>
 
     <!-- Pillar 2: Taxonomy -->
-    <a href="{{ '/KM/Taxonomy/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb; font-weight: 600; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
-      Taxonomy & Metadata &rarr;
-    </a>
+    <div>
+      <a href="{{ '/KM/Taxonomy/' | relative_url }}" style="color: #2563eb; font-weight: 600; font-size: 0.95rem; text-decoration: none;">
+        Taxonomy & Metadata &rarr;
+      </a>
+    </div>
 
     <!-- Pillar 3: Ontology -->
-    <a href="{{ '/KM/Ontology/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb; font-weight: 600; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
-      System Ontology &rarr;
-    </a>
+    <div>
+      <a href="{{ '/KM/Ontology/' | relative_url }}" style="color: #2563eb; font-weight: 600; font-size: 0.95rem; text-decoration: none;">
+        System Ontology &rarr;
+      </a>
+    </div>
 
     <!-- Pillar 4: Knowledge Base -->
-    <a href="{{ '/KM/Knowledge-Base/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb; font-weight: 600; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
-      Knowledge Base Repository &rarr;
-    </a>
+    <div>
+      <a href="{{ '/KM/Knowledge-Base/' | relative_url }}" style="color: #2563eb; font-weight: 600; font-size: 0.95rem; text-decoration: none;">
+        Knowledge Base Repository &rarr;
+      </a>
+    </div>
 
   </div>
 
 </section>
-
 
 <!-- 6. PROJECTS AND PURSUITS SECTION -->
 <section class="projects-section" style="margin-bottom: 36px;">
