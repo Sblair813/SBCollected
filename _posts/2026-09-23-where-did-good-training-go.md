@@ -91,4 +91,4 @@ The irony is that organizations are paying millions for software they’re not e
 
 They used to get this right. Pharmaceutical companies did. Mortgage software companies did.
 
-I think it’s time to remember why.]
+I think it’s time to remember why
