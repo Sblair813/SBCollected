@@ -129,27 +129,40 @@ title: Home
 
 </section>
 
-<!-- 5. KNOWLEDGE MANAGEMENT -->
-<section class="km-section" style="margin-bottom: 36px;">
+ <!-- 5. KNOWLEDGE MANAGEMENT SECTION -->
+<section class="km-section" style="margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #e2e8f0;">
 
-<h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
-  Knowledge Management
-</h2>
+  <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 12px;">
+    Knowledge Management Architecture
+  </h2>
 
-<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 24px;">
-  <h3 style="font-size: 1.15rem; font-weight: 600; margin-top: 0; margin-bottom: 10px; color: #0f172a;">
-    Enterprise Knowledge Management Framework
-  </h3>
-  <p style="font-size: 0.95rem; color: #475569; margin-bottom: 16px; line-height: 1.6;">
+  <p style="font-size: 0.95rem; color: #475569; line-height: 1.6; margin-bottom: 20px;">
     A production-grade 4-pillar Information Architecture model featuring YAML front-matter metadata schemas, controlled taxonomy dictionaries, semantic system ontologies, and automated lifecycle governance policies.
   </p>
-  
-  <div style="display: flex; gap: 16px; flex-wrap: wrap;">
-    <a href="/SBCollected/KM/Governance/GOVERNANCE.html" style="font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none;">Governance & Policies &rarr;</a>
-    <a href="/SBCollected/KM/Taxonomy/TAXONOMY.html" style="font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none;">Taxonomy & Metadata &rarr;</a>
-    <a href="/SBCollected/KM/Ontology/SYSTEM_ONTOLOGY.html" style="font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none;">System Ontology &rarr;</a>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+    
+    <!-- Pillar 1: Governance -->
+    <a href="{{ '/KM/Governance/GOVERNANCE.html' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #f8fafc; border: 1px solid #cbd5e1; color: #1e293b; font-weight: 500; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+      Governance & Policies &rarr;
+    </a>
+
+    <!-- Pillar 2: Taxonomy -->
+    <a href="{{ '/KM/Taxonomy/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #f8fafc; border: 1px solid #cbd5e1; color: #1e293b; font-weight: 500; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+      Taxonomy & Metadata &rarr;
+    </a>
+
+    <!-- Pillar 3: Ontology -->
+    <a href="{{ '/KM/Ontology/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #f8fafc; border: 1px solid #cbd5e1; color: #1e293b; font-weight: 500; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+      System Ontology &rarr;
+    </a>
+
+    <!-- Pillar 4: Knowledge Base -->
+    <a href="{{ '/KM/Knowledge-Base/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #f8fafc; border: 1px solid #cbd5e1; color: #1e293b; font-weight: 500; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+      Knowledge Base Repository &rarr;
+    </a>
+
   </div>
-</div>
 
 </section>
 
