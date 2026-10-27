@@ -48,7 +48,6 @@ title: Home
 
 <hr style="border: 0; border-top: 1px solid #e2e8f0; margin-bottom: 32px;" />
 
----
 <!-- 2. CONNECT SECTION -->
 <section class="connect-section" style="margin-bottom: 32px;">
 
