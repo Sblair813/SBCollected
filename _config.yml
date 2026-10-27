@@ -1,13 +1,17 @@
-yamltitle: 'Susan Blair Collected'
+title: 'Susan Blair Collected'
 description: 'A collection of articles and projects.' 
 theme: minima
 
 baseurl: "/SBCollected"
 url: "https://sblair813.github.io"
+
+# Whitelist specific pages for header/footer navigation
+header_pages:
+  - index.md
+
 defaults:
   - scope:
-      path: ""       # An empty string means look across the entire project repository
-      type: "posts"  # This targets every single post file, even those deep in subfolders
+      path: ""       # Targets the entire project repository
+      type: "posts"  # Targets post files
     values:
-      categories: [] # Strips out the folder-based categories automatically
- 
+      categories: [] # Strips out folder-based categories
