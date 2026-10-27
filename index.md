@@ -9,38 +9,62 @@ title: Home
 </style>
 
 <!-- 1. ABOUT ME SECTION -->
-## Technology Leadership & Product Architecture
+<section style="margin-bottom: 32px;">
+  <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 8px;">
+    Technology Leadership & Product Architecture
+  </h2>
 
-Demonstrating enterprise IT Product Management, Supply Chain integration architectures, and automated Knowledge Governance frameworks.
+  <p style="font-size: 1rem; color: #475569; line-height: 1.6; margin-bottom: 16px;">
+    Demonstrating enterprise IT Product Management, Supply Chain integration architectures, and automated Knowledge Governance frameworks.
+  </p>
 
+  <details style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px 20px; cursor: pointer;">
+    <summary style="font-size: 0.9rem; font-weight: 600; color: #2563eb; user-select: none;">
+      View Tools, Platforms & Technical Core Competencies &rarr;
+    </summary>
+    
+    <div style="margin-top: 16px; font-size: 0.9rem; color: #334155; line-height: 1.6;">
+      <p style="margin-bottom: 10px;">
+        <strong>Enterprise Systems:</strong> Microsoft Dynamics 365 • Infor M3 • Körber One (WMS) • Home-Grown and Custom-Built Systems • WMS • WFM • TMS • ERP
+      </p>
+      <p style="margin-bottom: 10px;">
+        <strong>Data & Reporting:</strong> SQL • Power BI • SSRS • HighJump
+      </p>
+      <p style="margin-bottom: 10px;">
+        <strong>Development & Testing:</strong> JavaScript • Visual Studio • SQL • End-to-End System Validation
+      </p>
+      <p style="margin-bottom: 10px;">
+        <strong>AI & Automation:</strong> Claude (Generative AI) • AI Workflow Automation • Agentic AI
+      </p>
+      <p style="margin-bottom: 10px;">
+        <strong>Product & Delivery:</strong> Jira • Confluence • ServiceNow • xMatters • Agile / Scrum
+      </p>
+      <p style="margin-bottom: 0;">
+        <strong>Design & Collaboration:</strong> Figma • Lucidchart • Visio • Mural • Process Mapping
+      </p>
+    </div>
+  </details>
+</section>
 
-### Tools & Platforms
-
-**Enterprise Systems:** Microsoft Dynamics 365 • Infor M3 • Körber One (WMS) • Home-Grown and Custom-Built Systems • WMS • WFM • TMS • ERP
-
-**Data & Reporting:** SQL • Power BI • SSRS • HighJump
-
-**Development & Testing:** JavaScript • Visual Studios • SQL • End-to-End System Validation 
-
-**AI & Automation:** Claude (Generative AI) • AI Workflow Automation • Agentic AI
-
-**Product & Delivery:** Jira • Confluence • ServiceNow • xMatters • Agile / Scrum
-
-**Design & Collaboration:** Figma • Lucidchart • Visio • Mural • Process Mapping
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin-bottom: 32px;" />
 
 ---
+<!-- 2. CONNECT SECTION -->
+<section class="connect-section" style="margin-bottom: 32px;">
 
-### Connect
+  <h2 style="font-size: 1.25rem; font-weight: 600; color: #0f172a; margin-bottom: 12px;">
+    Connect
+  </h2>
 
-<a href="https://www.linkedin.com/in/susan-b-122067147/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; background-color: #0077b5; color: #ffffff; font-weight: 600; font-size: 0.875rem; padding: 8px 16px; border-radius: 6px; text-decoration: none; margin-top: 8px;">
-  Connect on LinkedIn &rarr;
-</a>
+  <a href="https://www.linkedin.com/in/susan-b-122067147/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; background-color: #0077b5; color: #ffffff; font-weight: 600; font-size: 0.875rem; padding: 10px 18px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+    Connect on LinkedIn &rarr;
+  </a>
 
-<br><br>
+</section>
 
----
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin-bottom: 32px;" />
 
-<!-- 2. ARTICLES SECTION -->
+<!-- 3. ARTICLES SECTION -->
 <section class="articles-section" style="margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #e2e8f0;">
 
 <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
@@ -63,7 +87,7 @@ Demonstrating enterprise IT Product Management, Supply Chain integration archite
 </ul>
 
 </section>
-<!-- 3. TECHNICAL SCRIPTS & ANALYSIS SECTION -->
+<!-- 4. TECHNICAL SCRIPTS & ANALYSIS SECTION -->
 <section class="scripts-section" style="margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #e2e8f0;">
 
 <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
@@ -96,7 +120,7 @@ Demonstrating enterprise IT Product Management, Supply Chain integration archite
 
 </section>
 
-<!-- 4. KNOWLEDGE MANAGEMENT -->
+<!-- 5. KNOWLEDGE MANAGEMENT -->
 <section class="km-section" style="margin-bottom: 36px;">
 
 <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
@@ -121,7 +145,7 @@ Demonstrating enterprise IT Product Management, Supply Chain integration archite
 </section>
 
 
-<!-- 5. PROJECTS AND PURSUITS SECTION -->
+<!-- 6. PROJECTS AND PURSUITS SECTION -->
 <section class="projects-section" style="margin-bottom: 36px;">
 
 <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
