@@ -129,7 +129,7 @@ title: Home
 
 </section>
 
- <!-- 5. KNOWLEDGE MANAGEMENT SECTION -->
+<!-- 5. KNOWLEDGE MANAGEMENT SECTION -->
 <section class="km-section" style="margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #e2e8f0;">
 
   <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 12px;">
@@ -143,22 +143,22 @@ title: Home
   <div style="display: flex; flex-wrap: wrap; gap: 12px;">
     
     <!-- Pillar 1: Governance -->
-    <a href="{{ '/KM/Governance/GOVERNANCE.html' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #f8fafc; border: 1px solid #cbd5e1; color: #1e293b; font-weight: 500; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+    <a href="{{ '/KM/Governance/GOVERNANCE.html' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb; font-weight: 600; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
       Governance & Policies &rarr;
     </a>
 
     <!-- Pillar 2: Taxonomy -->
-    <a href="{{ '/KM/Taxonomy/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #f8fafc; border: 1px solid #cbd5e1; color: #1e293b; font-weight: 500; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+    <a href="{{ '/KM/Taxonomy/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb; font-weight: 600; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
       Taxonomy & Metadata &rarr;
     </a>
 
     <!-- Pillar 3: Ontology -->
-    <a href="{{ '/KM/Ontology/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #f8fafc; border: 1px solid #cbd5e1; color: #1e293b; font-weight: 500; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+    <a href="{{ '/KM/Ontology/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb; font-weight: 600; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
       System Ontology &rarr;
     </a>
 
     <!-- Pillar 4: Knowledge Base -->
-    <a href="{{ '/KM/Knowledge-Base/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #f8fafc; border: 1px solid #cbd5e1; color: #1e293b; font-weight: 500; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
+    <a href="{{ '/KM/Knowledge-Base/' | relative_url }}" style="display: inline-flex; align-items: center; background-color: #eff6ff; border: 1px solid #bfdbfe; color: #2563eb; font-weight: 600; font-size: 0.875rem; padding: 10px 16px; border-radius: 6px; text-decoration: none; transition: background-color 0.2s ease;">
       Knowledge Base Repository &rarr;
     </a>
 
