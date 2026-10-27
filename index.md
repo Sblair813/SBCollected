@@ -11,7 +11,7 @@ title: Home
 <!-- 1. ABOUT ME SECTION -->
 ## Technology Leadership & Product Architecture
 
-I'm a technology leader who has worked as a de facto Product Manager and Solutions Architect, specializing in enterprise supply chain systems, ERP environments, and complex integrations. I bridge the gap between operational reality and software design by owning products, architecting practical solutions, and managing end-to-end delivery of business-critical systems across WMS, TMS, ERP, and fulfillment operations.
+Demonstrating enterprise IT Product Management, Supply Chain integration architectures, and automated Knowledge Governance frameworks.
 
 
 ### Tools & Platforms
@@ -96,7 +96,32 @@ I'm a technology leader who has worked as a de facto Product Manager and Solutio
 
 </section>
 
-<!-- 4. PROJECTS AND PURSUITS SECTION -->
+<!-- 4. KNOWLEDGE MANAGEMENT -->
+<section class="km-section" style="margin-bottom: 36px;">
+
+<h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
+  Knowledge Management
+</h2>
+
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 24px;">
+  <h3 style="font-size: 1.15rem; font-weight: 600; margin-top: 0; margin-bottom: 10px; color: #0f172a;">
+    Enterprise Knowledge Management Framework
+  </h3>
+  <p style="font-size: 0.95rem; color: #475569; margin-bottom: 16px; line-height: 1.6;">
+    A production-grade 4-pillar Information Architecture model featuring YAML front-matter metadata schemas, controlled taxonomy dictionaries, semantic system ontologies, and automated lifecycle governance policies.
+  </p>
+  
+  <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+    <a href="/SBCollected/KM/Governance/GOVERNANCE.html" style="font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none;">Governance & Policies &rarr;</a>
+    <a href="/SBCollected/KM/Taxonomy/TAXONOMY.html" style="font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none;">Taxonomy & Metadata &rarr;</a>
+    <a href="/SBCollected/KM/Ontology/SYSTEM_ONTOLOGY.html" style="font-size: 0.875rem; font-weight: 600; color: #2563eb; text-decoration: none;">System Ontology &rarr;</a>
+  </div>
+</div>
+
+</section>
+
+
+<!-- 5. PROJECTS AND PURSUITS SECTION -->
 <section class="projects-section" style="margin-bottom: 36px;">
 
 <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
