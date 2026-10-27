@@ -67,26 +67,35 @@ title: Home
 <!-- 3. ARTICLES SECTION -->
 <section class="articles-section" style="margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #e2e8f0;">
 
-<h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
-  Articles
-</h2>
+  <h2 style="font-size: 1.5rem; font-weight: 600; color: #0f172a; margin-bottom: 20px;">
+    Articles
+  </h2>
 
-<ul style="list-style: none; padding: 0; margin: 0;">
-  {% for post in site.posts %}
-    <li style="border-bottom: 1px solid #f1f5f9; padding: 12px 0; display: flex; justify-content: space-between; align-items: center;">
-      <a href="{{ post.url | relative_url }}" style="font-size: 1rem; font-weight: 500; color: #2563eb; text-decoration: none;">
-        {{ post.title | escape }}
-      </a>
-      <span style="font-size: 0.85rem; color: #64748b;">
-        {{ post.date | date: "%b %d, %Y" }}
-      </span>
-    </li>
-  {% else %}
-    <li style="color: #64748b; font-style: italic;">No articles published yet.</li>
-  {% endfor %}
-</ul>
+  <details style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px 20px; cursor: pointer;">
+    <summary style="font-size: 0.95rem; font-weight: 600; color: #2563eb; user-select: none;">
+      View Articles & Thought Leadership Posts &rarr;
+    </summary>
+
+    <div style="margin-top: 16px;">
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        {% for post in site.posts %}
+          <li style="border-bottom: 1px solid #f1f5f9; padding: 12px 0; display: flex; justify-content: space-between; align-items: center;">
+            <a href="{{ post.url | relative_url }}" style="font-size: 0.95rem; font-weight: 500; color: #2563eb; text-decoration: none;">
+              {{ post.title | escape }}
+            </a>
+            <span style="font-size: 0.85rem; color: #64748b;">
+              {{ post.date | date: "%b %d, %Y" }}
+            </span>
+          </li>
+        {% else %}
+          <li style="color: #64748b; font-style: italic; padding: 8px 0;">No articles published yet.</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </details>
 
 </section>
+
 <!-- 4. TECHNICAL SCRIPTS & ANALYSIS SECTION -->
 <section class="scripts-section" style="margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #e2e8f0;">
 
