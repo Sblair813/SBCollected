@@ -136,7 +136,7 @@ title: Home
   </h2>
 
   <p style="font-size: 0.95rem; color: #475569; line-height: 1.6; margin-bottom: 20px;">
-    A production-grade 4-pillar Information Architecture model featuring YAML front-matter metadata schemas, controlled taxonomy dictionaries, semantic system ontologies, and automated lifecycle governance policies.
+    WIP- A production-grade 4-pillar Information Architecture model featuring YAML front-matter metadata schemas, controlled taxonomy dictionaries, semantic system ontologies, and automated lifecycle governance policies.
   </p>
 
   <div style="display: flex; flex-direction: column; gap: 10px;">
